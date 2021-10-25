@@ -1,0 +1,1 @@
+This file is created beside FileB and is going to be modified later

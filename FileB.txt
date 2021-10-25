@@ -1,0 +1,3 @@
+This file is created to be modified later. The applied modification won't be commited.
+It's going to be exported into a patch file and the patch file will be applied by someone else
+without commiting.
