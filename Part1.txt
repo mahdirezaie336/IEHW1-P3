@@ -1,3 +1,2 @@
 This file is going to be edited in the next commit and i will fix its mistakes.
 After that I will remove the follwing line after next commit by using this command: git commit --amend
-
