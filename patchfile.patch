@@ -1,0 +1,18 @@
+diff --git a/FileB.txt b/FileB.txt
+index 68aaa1c..19a9c84 100644
+--- a/FileB.txt
++++ b/FileB.txt
+@@ -1,3 +1,5 @@
+ This file is created to be modified later. The applied modification won't be commited.
+ It's going to be exported into a patch file and the patch file will be applied by someone else
+ without commiting.
++
++This line is added in order to to modify this file
+diff --git a/FileC.txt b/FileC.txt
+index 5e1e2b8..6c80326 100644
+--- a/FileC.txt
++++ b/FileC.txt
+@@ -1 +1,3 @@
+ This file is created beside FileB and is going to be modified later
++
++This line is added in order to edit this file
