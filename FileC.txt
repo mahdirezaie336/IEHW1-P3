@@ -1,1 +1,3 @@
 This file is created beside FileB and is going to be modified later
+
+This line is added in order to edit this file
