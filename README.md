@@ -1,4 +1,10 @@
-# IE Practice 1
+<h1 align="center" id="top">IE Practice 1</h1>
+
+Table of contents:
+- <a href="#part-1">Part 1</a>
+- <a href="#part-2">Part 2</a>
+- <a href="#part-3">Part 3</a>
+- <a href="#part-4">Part 4</a>
 
 ## Part 1
 
@@ -10,9 +16,13 @@ $ git commit --amend
 
 After that i realized the file name was supposed to be `FileA.txt` not `Part1.txt`. So I repeated the above scenario with `FileA.txt`.
 
+<div align="right">
+<a href="#top">back to top</a>
+</div>
+
 ## Part 2
 
-In this part we were going to create a `.env` file, commit and finally remove it file from history. I've created the file and commited it by this message `.env file is created`. Then I modified it and commited it again. Also, I created a file named `garage` so that the commits won't be removed after removing `.env` file. The following line was used to remove the `.env` file.
+In this part we were going to create a `.env` file, commit and finally remove it file from history. I've created the file and commited it by this message `.env file is created`. Then I modified it and commited it again. Also, I created a file named `garbage` so that the commits won't be removed after removing `.env` file. The following line was used to remove the `.env` file.
 
 ```
 $ git filter-repo --invert-paths --path Part2.env
@@ -29,6 +39,10 @@ $ git reset HEAD~2
 $ git reset HEAD — hard
 ```
 
+<div align="right">
+<a href="#top">back to top</a>
+</div>
+
 ## Part 3
 
 In this case, we are going to somehow share repository modifications without commiting and pushing. We can use the following command to find modifications and export it as a patch file:
@@ -42,6 +56,10 @@ On the other side, We need to use this command to apply modifications:
 ```
 $ git apply patchfile.patch
 ```
+
+<div align="right">
+<a href="#top">back to top</a>
+</div>
 
 ## Part 4
 
@@ -81,3 +99,7 @@ The graph after merge looks like this:
 |/  
 * 3a005ca (origin/master) Part 4 Begins here
 ```
+
+<div align="right">
+<a href="#top">back to top</a>
+</div>
