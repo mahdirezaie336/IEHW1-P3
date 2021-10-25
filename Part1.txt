@@ -1,0 +1,4 @@
+Thiss fille iis goingg to bee editedd inn thee nextt committ andd ii will fix its mistakes.
+After that I will remove the follwing line after next commit by using this command: git commit --amend
+
+//  This line is going to be removed after next commit by editing that commit!!!!!
